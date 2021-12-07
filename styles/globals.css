@@ -1,16 +1,181 @@
+/* 
+Colors - 
+0A1931
+185ADB
+FFC947
+EFEFEF
+
+Fonts - 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Passion One', cursive;
+ */
+
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  color: #EDEDED;
 }
-
+h1, h2{
+  font-family: 'Passion One', cursive;
+  color: #EFEFEF;
+}
+p{ 
+  color: #EFEFEF
+}
 a {
   color: inherit;
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+/* NavBar */
+.navbar-nav :hover {
+  background-color: #FFC947;
+}
+.navbar {
+  background-color: #0A1931;
+}
+/* Index Page */
+.main {
+  /* background-image: url("/images/timelapseCity.jpeg"); */
+  padding: 5% 15% 15%;
+  text-shadow: 4px 4px 5px black;
+}
+.main p {
+  padding: 0 15%;
+}
+video {
+  object-fit:contain;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* Set Background */
+.background{
+  background-color: #0A1931;
+}
+.about-section{
+  padding: 3%;
+}
+
+/* About Services Card */
+.about-card:hover {
+  background-color: #FFC947;
+}
+.about-card h2{
+  color: #185ADB;
+}
+.about-card hr{
+  width: 50%;
+  background-color: #185ADB;
+}
+.about-card p{
+  color: #0A1931;
+}
+/* Service Card */
+.service-card li{
+  list-style-type: none;
+}
+.service-card:hover{
+  background-color: #ededed8a;
+}
+/* Pricing Card */
+.pricing-section{
+  background-color: #0A1931;
+  padding: 5% 5%;
+}
+.pricing-card {
+  background-color: #FFC947;
+}
+.mi-pricing{
+  font-size: 60px;
+}
+/* Dispatch Form */
+.dispatch-form{
+  padding: 0 15%;
+}
+.material-icons {
+  color: #185ADB;
+}
+.mi-service, .mi-about {
+  font-size: 48px;
+}
+.mi-contact, .mi-service{
+  border: solid;
+  border-radius: 50%;
+  font-size: 24px;
+  padding: 3%;
+  background-color: #EDEDED;
+}
+.header h1{
+  font-size: 80px;
+  bottom: 20%;
+}
+.left-header{
+  margin: auto;
+}
+.home-line{
+  width: 50%;
+  color:#EDEDED;
+}
+
+
+.contact-section{
+  background-color: #0A1931;
+}
+.bi-facebook{
+  background-color: #3B5998;
+}
+.bi-instagram{
+  background-image: linear-gradient(140deg,blue,#F56040 60%);
+}
+.bi-twitter {
+  background-color: #55ACEE;
+}
+/* Contact Page Styles */
+.contact-page{
+  padding: 0 10%;
+}
+.text-area{
+  width: 100%;
+  height: 250px;
+}
+
+@media only screen and (max-width: 767px) {
+  hr {
+    display: none;
+  }
+
+  #timelapseVideo {
+    display: none;
+  }
+  html, body { background-color: #0A1931;
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  -o-background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  }
+  .about-section hr {
+    color: #55ACEE;
+  }
+  .contactCompanyInfo {
+    display: none;
+  }
+  .mi-service{
+    border: none;
+    border-radius: 50%;
+    font-size: 36px;
+    padding: 3%;
+    color: #EDEDED;
+    background-color: transparent;
+  }
+}
+@media only screen and (max-width: 1384px) {
+  .about-section .col{
+    width: max-content;
+  }
 }
