@@ -42,10 +42,10 @@ const Header = () => {
 
                         <div className="collapse navbar-collapse justify-content-evenly text-center" id="navbarOBandT">
                             <div className="navbar-nav">
-                                <Link href="/" aria-current="page"><a className="nav-link px-5 fs-6 text-uppercase rounded"><h2 className="text-secondary fs-3">Home</h2></a></Link>
-                                <Link href="/aboutus"><a className="nav-link px-5 fs-6 text-uppercase rounded"><h2 className="text-secondary fs-3">About</h2></a></Link>
-                                <Link href="/requestservices"><a className="nav-link fs-6 text-uppercase rounded"><h2 className="text-secondary fs-3">Request Service</h2></a></Link>
-                                <Link href="/contact"><a className="nav-link px-5 fs-6 text-uppercase rounded"><h2 className="text-secondary fs-3">Contact Us</h2></a></Link>
+                                <Link legacyBehavior href="/" aria-current="page"><a className="nav-link px-5 fs-6 text-uppercase rounded"><h2 className="text-secondary fs-3">Home</h2></a></Link>
+                                <Link legacyBehavior href="/aboutus"><a className="nav-link px-5 fs-6 text-uppercase rounded"><h2 className="text-secondary fs-3">About</h2></a></Link>
+                                <Link legacyBehavior href="/requestservices"><a className="nav-link fs-6 text-uppercase rounded"><h2 className="text-secondary fs-3">Request Service</h2></a></Link>
+                                <Link legacyBehavior href="/contact"><a className="nav-link px-5 fs-6 text-uppercase rounded"><h2 className="text-secondary fs-3">Contact Us</h2></a></Link>
                                 
                             </div> 
                         </div>

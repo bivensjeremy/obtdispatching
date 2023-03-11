@@ -53,7 +53,7 @@ const ContactSection = () => {
                             </div>
                             <div className="col m-auto">
                                 <div className="py-2">
-                                    <button type="button" className="btn btn-primary rounded py-3 shadow"><Link href='/contact' className="nav-link text-light">Send a Message Instead!</Link></button>
+                                    <button type="button" className="btn btn-primary rounded py-3 shadow"><Link legacyBehavior href='/contact' className="nav-link text-light">Send a Message Instead!</Link></button>
                                 </div>
                             </div>
                             

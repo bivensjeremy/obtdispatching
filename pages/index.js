@@ -40,7 +40,7 @@ export default function Home( {aboutInfo, companyInfo, pricingInfo} ) {
           <p className="text-center fs-5 fst-italic"> Our top priority is to ensure we are meeting all of your needs in a timely and professional manner at all times. We have built our business on a strong foundation which includes honesty, respect, integrity, and hard work. Effective communication is one of our key principles which is why we will always strive to communicate with our clients one-on-one to understand their specific needs and provide assistance based on those needs. No Empty Wagons!</p>
 
           <div className="d-grid gap-2 d-md-block py-4 text-center">
-            <button type="button" className="btn border-3 btn-light btn-lg mx-2 shadow-lg"><Link href='/requestservices'>Request Service</Link></button>
+            <button type="button" className="btn border-3 btn-light btn-lg mx-2 shadow-lg"><Link legacyBehavior href='/requestservices'>Request Service</Link></button>
           </div>
         </div>
       </main>
