@@ -27,14 +27,14 @@ const Header = () => {
                 <div className="container-fluid px-5">
             
                 <div className="me-5">
-                    <Link href="/"><a><Image
+                    <Link href="/"><Image
                                         className="OB&T logo"
                                         src="/images/logo_crop.png"
                                         layout="intrinsic"
                                         width={100}
                                         height={100}
                                         alt="OB&T Logo"
-                                    /></a></Link>
+                                    /></Link>
                 </div>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarOBandT" aria-controls="navbarOBandT" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
